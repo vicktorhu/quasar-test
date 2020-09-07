@@ -1,0 +1,7 @@
+{
+  "appId": "vic.quasartest.app",
+  "appName": "quasartest",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

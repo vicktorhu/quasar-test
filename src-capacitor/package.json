@@ -1,0 +1,11 @@
+{
+  "name": "quasartest",
+  "version": "0.0.1",
+  "description": "Quasar Test App",
+  "author": "Vicktor <vicktor.hutama@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0"
+  }
+}
