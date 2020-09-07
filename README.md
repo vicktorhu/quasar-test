@@ -9,6 +9,7 @@ Barebone testing app for Quasar Framework. Support building to various platforms
     "dev:android": "quasar dev -m capacitor -T android",
     "dev:ios": "quasar dev -m capacitor -T ios",
     "dev:elec": "quasar dev -m electron",
+    "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
     "build": "quasar build",
     "build:pwa": "quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
