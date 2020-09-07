@@ -1,26 +1,16 @@
-# quasartest (quasartest)
+# Quasar Test App
 
-Quasar Test App
+Barebone testing app for Quasar JS. Support building to various platforms.
 
-## Install the dependencies
-```bash
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+  "scripts": {
+    "dev": "quasar dev",
+    "dev:pwa": "quasar dev -m pwa",
+    "dev:android": "quasar dev -m capacitor -T android",
+    "dev:ios": "quasar dev -m capacitor -T ios",
+    "dev:elec": "quasar dev -m electron",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa",
+    "build:android": "quasar build -m capacitor -T android",
+    "build:ios": "quasar build -m capacitor -T ios",
+    "build:elec": "quasar build -m electron",
+  }
