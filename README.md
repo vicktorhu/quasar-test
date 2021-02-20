@@ -14,6 +14,6 @@ Barebone testing app for Quasar Framework. Support building to various platforms
     "build:pwa": "quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
     "build:ios": "quasar build -m capacitor -T ios",
-    "build:elec": "quasar build -m electron",
-}
+    "build:elec": "quasar build -m electron"
+},
 ```
